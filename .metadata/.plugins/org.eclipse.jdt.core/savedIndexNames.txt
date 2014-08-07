@@ -1,0 +1,18 @@
+INDEX VERSION 1.126+E:\research\research\.metadata\.plugins\org.eclipse.jdt.core
+937813935.index
+1634172356.index
+1030196544.index
+3781882539.index
+1850459661.index
+2255177698.index
+3632919852.index
+2980662423.index
+2333433479.index
+2485911150.index
+3711421959.index
+3025639145.index
+1084631399.index
+490642010.index
+3832659022.index
+911887560.index
+1833288827.index

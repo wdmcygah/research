@@ -1,0 +1,9 @@
+ 
+<cache name="sampleCache"
+       eternal="false"
+       overflowToDisk="true"
+       diskSpoolBufferSizeMB="20"
+       timeToIdleSeconds="300"
+       timeToLiveSeconds="600"
+       memoryStoreEvictionPolicy="LFU"
+        />

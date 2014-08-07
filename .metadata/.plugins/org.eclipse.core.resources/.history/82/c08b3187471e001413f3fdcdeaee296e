@@ -1,0 +1,5 @@
+package com.research;
+
+public interface EhcacheWrapper {
+
+}

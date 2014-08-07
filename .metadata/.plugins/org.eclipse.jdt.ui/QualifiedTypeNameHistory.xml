@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.research.EhcacheWrapper"/>
+<fullyQualifiedTypeName name="net.sf.ehcache.management.Cache"/>
+<fullyQualifiedTypeName name="net.sf.ehcache.management.CacheConfiguration"/>
+<fullyQualifiedTypeName name="net.sf.ehcache.Cache"/>
+<fullyQualifiedTypeName name="net.sf.ehcache.config.CacheConfiguration"/>
+</qualifiedTypeNameHistroy>

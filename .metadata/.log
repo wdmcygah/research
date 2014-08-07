@@ -1,0 +1,820 @@
+!SESSION 2014-08-07 22:28:44.057 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data E:\research\research
+
+!ENTRY org.eclipse.jface 2 0 2014-08-07 22:28:59.628
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 22:28:59.628
+!MESSAGE A conflict occurred for SHIFT+DEL:
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.removeAllInstances,Remove All Visible Results,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,SQL Results View,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.cut,Cut,
+		Cut the selection to the clipboard,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.handlers.WidgetMethodHandler@14b9eeb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(SHIFT+DEL,
+	ParameterizedCommand(Command(org.topcased.modeler.deleteModelObject,Delete From Model,
+		Allows the user to delete the selected graph element and its associated model element in a Topcased editor.,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 22:29:12.497
+!MESSAGE NLS unused message: prompt.optclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 22:29:12.499
+!MESSAGE NLS unused message: prompt.preclasspath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 22:29:12.500
+!MESSAGE NLS unused message: prompt.optlibrarypath in: com.genuitec.eclipse.easie.core.configuration
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-08-07 22:29:15.274
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-08-07 22:29:15.442
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-08-07 22:29:15.518
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-08-07 22:29:15.602
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-08-07 22:29:15.688
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-08-07 22:29:15.781
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-08-07 22:29:15.894
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-08-07 22:29:16.013
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-08-07 22:29:16.117
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-08-07 22:29:16.228
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2014-08-07 22:29:16.325
+!MESSAGE Installed snippet library: D:\Program Files\MyEclipse-8.6\configuration\org.eclipse.osgi\bundles\123\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 22:29:44.882
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 22:37:53.794
+!MESSAGE Build errors for research
+!STACK 0
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal on project research: Missing:
+----------
+1) net.sf.ehcache:ehcache:jar:2.8.3
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=net.sf.ehcache -DartifactId=ehcache -Dversion=2.8.3 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=net.sf.ehcache -DartifactId=ehcache -Dversion=2.8.3 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) com.research:research:pom:pom:0.0.1-SNAPSHOT
+  	2) net.sf.ehcache:ehcache:jar:2.8.3
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  com.research:research:pom:0.0.1-SNAPSHOT
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.resolveProjectDependencies(DefaultLifecycleExecutor.java:416)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:314)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:247)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:104)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.execute(MavenImpl.java:218)
+	at org.maven.ide.eclipse.internal.project.GenericBuildParticipant.executePostBuild(GenericBuildParticipant.java:139)
+	at org.maven.ide.eclipse.internal.project.GenericBuildParticipant.build(GenericBuildParticipant.java:78)
+	at org.maven.ide.eclipse.internal.builder.MavenBuilder.build(MavenBuilder.java:153)
+	at com.genuitec.eclipse.maven.project.MyEclipseMavenBuilder.build(MyEclipseMavenBuilder.java:24)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.artifact.resolver.MultipleArtifactsNotFoundException: Missing:
+----------
+1) net.sf.ehcache:ehcache:jar:2.8.3
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=net.sf.ehcache -DartifactId=ehcache -Dversion=2.8.3 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=net.sf.ehcache -DartifactId=ehcache -Dversion=2.8.3 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) com.research:research:pom:pom:0.0.1-SNAPSHOT
+  	2) net.sf.ehcache:ehcache:jar:2.8.3
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  com.research:research:pom:0.0.1-SNAPSHOT
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+	at org.apache.maven.artifact.resolver.DefaultResolutionErrorHandler.throwErrors(DefaultResolutionErrorHandler.java:71)
+	at org.apache.maven.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:156)
+	at org.apache.maven.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:66)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.resolveProjectDependencies(DefaultLifecycleExecutor.java:385)
+	... 20 more
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 22:51:15.515
+!MESSAGE Could not parse classwords configuration file
+!STACK 0
+java.io.FileNotFoundException: D:\Program Files\apache-maven-3.1.1/conf/logging
+	at org.codehaus.plexus.classworlds.launcher.ConfigurationParser.parse(ConfigurationParser.java:265)
+	at org.maven.ide.eclipse.internal.embedder.MavenExternalRuntime.getVersion(MavenExternalRuntime.java:199)
+	at org.maven.ide.eclipse.internal.embedder.MavenExternalRuntime.toString(MavenExternalRuntime.java:139)
+	at org.maven.ide.eclipse.ui.internal.preferences.MavenInstallationsPreferencePage$RuntimesLabelProvider.getColumnText(MavenInstallationsPreferencePage.java:631)
+	at org.eclipse.jface.viewers.TableColumnViewerLabelProvider.update(TableColumnViewerLabelProvider.java:70)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:145)
+	at org.eclipse.jface.viewers.AbstractTableViewer.doUpdateItem(AbstractTableViewer.java:399)
+	at org.eclipse.jface.viewers.CheckboxTableViewer.doUpdateItem(CheckboxTableViewer.java:168)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:481)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTableViewer.createItem(AbstractTableViewer.java:277)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefreshAll(AbstractTableViewer.java:757)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefresh(AbstractTableViewer.java:649)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefresh(AbstractTableViewer.java:636)
+	at org.eclipse.jface.viewers.StructuredViewer$7.run(StructuredViewer.java:1457)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.CheckboxTableViewer.preservingSelection(CheckboxTableViewer.java:342)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1455)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:537)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1414)
+	at org.maven.ide.eclipse.ui.internal.preferences.MavenInstallationsPreferencePage$6.widgetSelected(MavenInstallationsPreferencePage.java:431)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:228)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:211)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:65)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 22:51:22.498
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 22:55:46.984
+!MESSAGE Could not parse classwords configuration file
+!STACK 0
+java.io.FileNotFoundException: D:\Program Files\apache-maven-3.1.1/conf/logging
+	at org.codehaus.plexus.classworlds.launcher.ConfigurationParser.parse(ConfigurationParser.java:265)
+	at org.maven.ide.eclipse.internal.embedder.MavenExternalRuntime.getVersion(MavenExternalRuntime.java:199)
+	at org.maven.ide.eclipse.internal.embedder.MavenExternalRuntime.toString(MavenExternalRuntime.java:139)
+	at org.maven.ide.eclipse.ui.internal.preferences.MavenInstallationsPreferencePage$RuntimesLabelProvider.getColumnText(MavenInstallationsPreferencePage.java:631)
+	at org.eclipse.jface.viewers.TableColumnViewerLabelProvider.update(TableColumnViewerLabelProvider.java:70)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:145)
+	at org.eclipse.jface.viewers.AbstractTableViewer.doUpdateItem(AbstractTableViewer.java:399)
+	at org.eclipse.jface.viewers.CheckboxTableViewer.doUpdateItem(CheckboxTableViewer.java:168)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:481)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTableViewer.createItem(AbstractTableViewer.java:277)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefreshAll(AbstractTableViewer.java:757)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefresh(AbstractTableViewer.java:649)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefresh(AbstractTableViewer.java:636)
+	at org.eclipse.jface.viewers.AbstractTableViewer$2.run(AbstractTableViewer.java:592)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.CheckboxTableViewer.preservingSelection(CheckboxTableViewer.java:342)
+	at org.eclipse.jface.viewers.AbstractTableViewer.inputChanged(AbstractTableViewer.java:590)
+	at org.eclipse.jface.viewers.ContentViewer.setInput(ContentViewer.java:274)
+	at org.eclipse.jface.viewers.StructuredViewer.setInput(StructuredViewer.java:1634)
+	at org.maven.ide.eclipse.ui.internal.preferences.MavenInstallationsPreferencePage.createContents(MavenInstallationsPreferencePage.java:227)
+	at org.eclipse.jface.preference.PreferencePage.createControl(PreferencePage.java:232)
+	at org.eclipse.jface.preference.PreferenceDialog.createPageControl(PreferenceDialog.java:1501)
+	at org.eclipse.jface.preference.PreferenceDialog$14.run(PreferenceDialog.java:1258)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.preference.PreferenceDialog.showPage(PreferenceDialog.java:1252)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.showPage(FilteredPreferenceDialog.java:679)
+	at org.eclipse.jface.preference.PreferenceDialog$10.run(PreferenceDialog.java:708)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog$9.selectionChanged(PreferenceDialog.java:704)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:864)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:862)
+	at org.eclipse.jface.viewers.StructuredViewer.handlePostSelect(StructuredViewer.java:1175)
+	at org.eclipse.jface.viewers.StructuredViewer$5.widgetSelected(StructuredViewer.java:1200)
+	at org.eclipse.jface.util.OpenStrategy.firePostSelectionEvent(OpenStrategy.java:251)
+	at org.eclipse.jface.util.OpenStrategy.access$5(OpenStrategy.java:245)
+	at org.eclipse.jface.util.OpenStrategy$3.run(OpenStrategy.java:419)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:211)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:65)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 22:55:46.992
+!MESSAGE Could not parse classwords configuration file
+!STACK 0
+java.io.FileNotFoundException: D:\Program Files\apache-maven-3.1.1/conf/logging
+	at org.codehaus.plexus.classworlds.launcher.ConfigurationParser.parse(ConfigurationParser.java:265)
+	at org.maven.ide.eclipse.internal.embedder.MavenExternalRuntime.getVersion(MavenExternalRuntime.java:199)
+	at org.maven.ide.eclipse.internal.embedder.MavenExternalRuntime.toString(MavenExternalRuntime.java:139)
+	at org.maven.ide.eclipse.ui.internal.preferences.MavenInstallationsPreferencePage$RuntimesLabelProvider.getColumnText(MavenInstallationsPreferencePage.java:631)
+	at org.eclipse.jface.viewers.TableColumnViewerLabelProvider.update(TableColumnViewerLabelProvider.java:70)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:145)
+	at org.eclipse.jface.viewers.AbstractTableViewer.doUpdateItem(AbstractTableViewer.java:399)
+	at org.eclipse.jface.viewers.CheckboxTableViewer.doUpdateItem(CheckboxTableViewer.java:168)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:481)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefreshAll(AbstractTableViewer.java:711)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefresh(AbstractTableViewer.java:649)
+	at org.eclipse.jface.viewers.AbstractTableViewer.internalRefresh(AbstractTableViewer.java:636)
+	at org.eclipse.jface.viewers.StructuredViewer$7.run(StructuredViewer.java:1457)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1392)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1353)
+	at org.eclipse.jface.viewers.CheckboxTableViewer.preservingSelection(CheckboxTableViewer.java:342)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1455)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:537)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1414)
+	at org.maven.ide.eclipse.ui.internal.preferences.MavenInstallationsPreferencePage.createContents(MavenInstallationsPreferencePage.java:229)
+	at org.eclipse.jface.preference.PreferencePage.createControl(PreferencePage.java:232)
+	at org.eclipse.jface.preference.PreferenceDialog.createPageControl(PreferenceDialog.java:1501)
+	at org.eclipse.jface.preference.PreferenceDialog$14.run(PreferenceDialog.java:1258)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.preference.PreferenceDialog.showPage(PreferenceDialog.java:1252)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.showPage(FilteredPreferenceDialog.java:679)
+	at org.eclipse.jface.preference.PreferenceDialog$10.run(PreferenceDialog.java:708)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog$9.selectionChanged(PreferenceDialog.java:704)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:864)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:48)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:862)
+	at org.eclipse.jface.viewers.StructuredViewer.handlePostSelect(StructuredViewer.java:1175)
+	at org.eclipse.jface.viewers.StructuredViewer$5.widgetSelected(StructuredViewer.java:1200)
+	at org.eclipse.jface.util.OpenStrategy.firePostSelectionEvent(OpenStrategy.java:251)
+	at org.eclipse.jface.util.OpenStrategy.access$5(OpenStrategy.java:245)
+	at org.eclipse.jface.util.OpenStrategy$3.run(OpenStrategy.java:419)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3885)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3506)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:825)
+	at org.eclipse.jface.window.Window.open(Window.java:801)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:211)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:65)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 22:57:01.728
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 22:57:02.561
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 22:57:04.729
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 23:06:22.938
+!MESSAGE Build errors for research
+!STACK 0
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal on project research: Missing:
+----------
+1) net.sf.ehcache:ehcache:jar:2.7.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=net.sf.ehcache -DartifactId=ehcache -Dversion=2.7.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=net.sf.ehcache -DartifactId=ehcache -Dversion=2.7.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) com.research:research:pom:pom:0.0.1-SNAPSHOT
+  	2) net.sf.ehcache:ehcache:jar:2.7.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  com.research:research:pom:0.0.1-SNAPSHOT
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.resolveProjectDependencies(DefaultLifecycleExecutor.java:416)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:314)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:247)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:104)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.execute(MavenImpl.java:218)
+	at org.maven.ide.eclipse.internal.project.GenericBuildParticipant.executePostBuild(GenericBuildParticipant.java:139)
+	at org.maven.ide.eclipse.internal.project.GenericBuildParticipant.build(GenericBuildParticipant.java:78)
+	at org.maven.ide.eclipse.internal.builder.MavenBuilder.build(MavenBuilder.java:153)
+	at com.genuitec.eclipse.maven.project.MyEclipseMavenBuilder.build(MyEclipseMavenBuilder.java:24)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.artifact.resolver.MultipleArtifactsNotFoundException: Missing:
+----------
+1) net.sf.ehcache:ehcache:jar:2.7.6
+
+  Try downloading the file manually from the project website.
+
+  Then, install it using the command: 
+      mvn install:install-file -DgroupId=net.sf.ehcache -DartifactId=ehcache -Dversion=2.7.6 -Dpackaging=jar -Dfile=/path/to/file
+
+  Alternatively, if you host your own repository you can deploy the file there: 
+      mvn deploy:deploy-file -DgroupId=net.sf.ehcache -DartifactId=ehcache -Dversion=2.7.6 -Dpackaging=jar -Dfile=/path/to/file -Durl=[url] -DrepositoryId=[id]
+
+  Path to dependency: 
+  	1) com.research:research:pom:pom:0.0.1-SNAPSHOT
+  	2) net.sf.ehcache:ehcache:jar:2.7.6
+
+----------
+1 required artifact is missing.
+
+for artifact: 
+  com.research:research:pom:0.0.1-SNAPSHOT
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+	at org.apache.maven.artifact.resolver.DefaultResolutionErrorHandler.throwErrors(DefaultResolutionErrorHandler.java:71)
+	at org.apache.maven.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:156)
+	at org.apache.maven.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:66)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.resolveProjectDependencies(DefaultLifecycleExecutor.java:385)
+	... 20 more
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 23:19:24.534
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+!STACK 0
+java.io.IOException: Authorization exception retrieving nexus-maven-repository-index.properties
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$WagonFetcher.retrieve(DefaultIndexUpdater.java:681)
+	at org.sonatype.nexus.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:22)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:493)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:74)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:780)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:954)
+	at org.sonatype.nexus.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:138)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1060)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1013)
+	at org.maven.ide.eclipse.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:624)
+	at org.maven.ide.eclipse.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jdt.core 4 4 2014-08-07 23:28:49.555
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: research
+!STACK 1
+Java Model Exception: Java Model Status [CacheWrapper [in [Working copy] App.java [in com.research [in src/main/java [in research]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:492)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:526)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:252)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:238)
+	at org.eclipse.jdt.internal.core.Member.getNameRange(Member.java:316)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createProblemFor(AbstractImageBuilder.java:397)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:179)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:504)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:364)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:321)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:301)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:134)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:265)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:193)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2014-08-07 23:28:49.598
+!MESSAGE CacheWrapper [in [Working copy] App.java [in com.research [in src/main/java [in research]]]] does not exist
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 23:28:55.724
+!MESSAGE Build errors for research
+!STACK 0
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project research: Compilation failure
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:581)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:324)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:247)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:104)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.execute(MavenImpl.java:218)
+	at org.maven.ide.eclipse.internal.project.GenericBuildParticipant.executePostBuild(GenericBuildParticipant.java:139)
+	at org.maven.ide.eclipse.internal.project.GenericBuildParticipant.build(GenericBuildParticipant.java:78)
+	at org.maven.ide.eclipse.internal.builder.MavenBuilder.build(MavenBuilder.java:153)
+	at com.genuitec.eclipse.maven.project.MyEclipseMavenBuilder.build(MyEclipseMavenBuilder.java:24)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.plugin.CompilationFailureException: Compilation failure
+	at org.apache.maven.plugin.AbstractCompilerMojo.execute(AbstractCompilerMojo.java:516)
+	at org.apache.maven.plugin.CompilerMojo.execute(CompilerMojo.java:114)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:105)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:577)
+	... 20 more
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 23:31:17.431
+!MESSAGE Build errors for research
+!STACK 0
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project research: Compilation failure
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:581)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:324)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:247)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:104)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.execute(MavenImpl.java:218)
+	at org.maven.ide.eclipse.internal.project.GenericBuildParticipant.executePostBuild(GenericBuildParticipant.java:139)
+	at org.maven.ide.eclipse.internal.project.GenericBuildParticipant.build(GenericBuildParticipant.java:78)
+	at org.maven.ide.eclipse.internal.builder.MavenBuilder.build(MavenBuilder.java:153)
+	at com.genuitec.eclipse.maven.project.MyEclipseMavenBuilder.build(MyEclipseMavenBuilder.java:24)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.plugin.CompilationFailureException: Compilation failure
+	at org.apache.maven.plugin.AbstractCompilerMojo.execute(AbstractCompilerMojo.java:516)
+	at org.apache.maven.plugin.CompilerMojo.execute(CompilerMojo.java:114)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:105)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:577)
+	... 20 more
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 23:31:59.189
+!MESSAGE Build errors for research
+!STACK 0
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile) on project research: Compilation failure
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:581)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:324)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:247)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:104)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.execute(MavenImpl.java:218)
+	at org.maven.ide.eclipse.internal.project.GenericBuildParticipant.executePostBuild(GenericBuildParticipant.java:139)
+	at org.maven.ide.eclipse.internal.project.GenericBuildParticipant.build(GenericBuildParticipant.java:78)
+	at org.maven.ide.eclipse.internal.builder.MavenBuilder.build(MavenBuilder.java:153)
+	at com.genuitec.eclipse.maven.project.MyEclipseMavenBuilder.build(MyEclipseMavenBuilder.java:24)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:627)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:218)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:360)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:523)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1800)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1782)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:502)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:94)
+	at org.eclipse.jdt.internal.ui.util.CoreUtility$BuildJob.run(CoreUtility.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.plugin.CompilationFailureException: Compilation failure
+	at org.apache.maven.plugin.AbstractCompilerMojo.execute(AbstractCompilerMojo.java:516)
+	at org.apache.maven.plugin.CompilerMojo.execute(CompilerMojo.java:114)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:105)
+	at org.apache.maven.lifecycle.DefaultLifecycleExecutor.execute(DefaultLifecycleExecutor.java:577)
+	... 24 more
+
+!ENTRY org.maven.ide.eclipse 4 0 2014-08-07 23:39:21.650
+!MESSAGE Could not download sources for net.sf.ehcache:ehcache:2.8.3
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.resolve(MavenImpl.java:464)
+	at org.maven.ide.eclipse.jdt.DownloadSourcesJob.download(DownloadSourcesJob.java:219)
+	at org.maven.ide.eclipse.jdt.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:199)
+	at org.maven.ide.eclipse.jdt.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:181)
+	at org.maven.ide.eclipse.jdt.DownloadSourcesJob.run(DownloadSourcesJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Transfer error: The server did not respond within the configured timeout.
+  net.sf.ehcache:ehcache:jar:2.8.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+org.apache.maven.artifact.resolver.ArtifactResolutionException: Transfer error: The server did not respond within the configured timeout.
+  net.sf.ehcache:ehcache:jar:2.8.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+	at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:268)
+	at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:507)
+	at org.apache.maven.repository.legacy.LegacyRepositorySystem.resolve(LegacyRepositorySystem.java:325)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.resolve(MavenImpl.java:451)
+	at org.maven.ide.eclipse.jdt.DownloadSourcesJob.download(DownloadSourcesJob.java:219)
+	at org.maven.ide.eclipse.jdt.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:199)
+	at org.maven.ide.eclipse.jdt.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:181)
+	at org.maven.ide.eclipse.jdt.DownloadSourcesJob.run(DownloadSourcesJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.wagon.TransferFailedException: Transfer error: The server did not respond within the configured timeout.
+	at org.apache.maven.wagon.providers.http.JettyClientHttpWagon.handleException(JettyClientHttpWagon.java:280)
+	at org.apache.maven.wagon.providers.http.JettyClientHttpWagon.getIfNewer(JettyClientHttpWagon.java:349)
+	at org.apache.maven.wagon.providers.http.JettyClientHttpWagon.getIfNewer(JettyClientHttpWagon.java:302)
+	at org.apache.maven.wagon.providers.http.JettyClientHttpWagon.get(JettyClientHttpWagon.java:292)
+	at org.apache.maven.repository.legacy.DefaultWagonManager.getRemoteFile(DefaultWagonManager.java:310)
+	at org.apache.maven.repository.legacy.DefaultWagonManager.getArtifact(DefaultWagonManager.java:99)
+	at org.apache.maven.repository.legacy.DefaultWagonManager.getArtifact(DefaultWagonManager.java:130)
+	at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:251)
+	... 8 more
+Caused by: java.io.IOException: The server did not respond within the configured timeout.
+	at org.apache.maven.wagon.providers.http.JettyClientHttpWagon$WagonExchange.onExpire(JettyClientHttpWagon.java:1000)
+	at org.eclipse.jetty.client.HttpExchange$Listener.onExpire(HttpExchange.java:644)
+	at org.eclipse.jetty.client.HttpEventListenerWrapper.onExpire(HttpEventListenerWrapper.java:95)
+	at org.eclipse.jetty.client.HttpEventListenerWrapper.onExpire(HttpEventListenerWrapper.java:95)
+	at org.eclipse.jetty.client.HttpExchange.setStatus(HttpExchange.java:186)
+	at org.eclipse.jetty.client.HttpConnection$TimeoutTask.expired(HttpConnection.java:574)
+	at org.eclipse.jetty.util.thread.Timeout.tick(Timeout.java:153)
+	at org.eclipse.jetty.util.thread.Timeout.tick(Timeout.java:165)
+	at org.eclipse.jetty.client.HttpClient$1.run(HttpClient.java:457)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:435)
+	at java.lang.Thread.run(Thread.java:619)
+!SUBENTRY 1 org.maven.ide.eclipse 4 -1 2014-08-07 23:39:21.652
+!MESSAGE Could not resolve artifact
+!SUBENTRY 2 org.maven.ide.eclipse 4 -1 2014-08-07 23:39:21.653
+!MESSAGE Transfer error: The server did not respond within the configured timeout.
+  net.sf.ehcache:ehcache:jar:2.8.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+!STACK 0
+org.apache.maven.artifact.resolver.ArtifactResolutionException: Transfer error: The server did not respond within the configured timeout.
+  net.sf.ehcache:ehcache:jar:2.8.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2, releases=true, snapshots=false)
+
+	at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:268)
+	at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:507)
+	at org.apache.maven.repository.legacy.LegacyRepositorySystem.resolve(LegacyRepositorySystem.java:325)
+	at org.maven.ide.eclipse.internal.embedder.MavenImpl.resolve(MavenImpl.java:451)
+	at org.maven.ide.eclipse.jdt.DownloadSourcesJob.download(DownloadSourcesJob.java:219)
+	at org.maven.ide.eclipse.jdt.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:199)
+	at org.maven.ide.eclipse.jdt.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:181)
+	at org.maven.ide.eclipse.jdt.DownloadSourcesJob.run(DownloadSourcesJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.wagon.TransferFailedException: Transfer error: The server did not respond within the configured timeout.
+	at org.apache.maven.wagon.providers.http.JettyClientHttpWagon.handleException(JettyClientHttpWagon.java:280)
+	at org.apache.maven.wagon.providers.http.JettyClientHttpWagon.getIfNewer(JettyClientHttpWagon.java:349)
+	at org.apache.maven.wagon.providers.http.JettyClientHttpWagon.getIfNewer(JettyClientHttpWagon.java:302)
+	at org.apache.maven.wagon.providers.http.JettyClientHttpWagon.get(JettyClientHttpWagon.java:292)
+	at org.apache.maven.repository.legacy.DefaultWagonManager.getRemoteFile(DefaultWagonManager.java:310)
+	at org.apache.maven.repository.legacy.DefaultWagonManager.getArtifact(DefaultWagonManager.java:99)
+	at org.apache.maven.repository.legacy.DefaultWagonManager.getArtifact(DefaultWagonManager.java:130)
+	at org.apache.maven.artifact.resolver.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:251)
+	... 8 more
+Caused by: java.io.IOException: The server did not respond within the configured timeout.
+	at org.apache.maven.wagon.providers.http.JettyClientHttpWagon$WagonExchange.onExpire(JettyClientHttpWagon.java:1000)
+	at org.eclipse.jetty.client.HttpExchange$Listener.onExpire(HttpExchange.java:644)
+	at org.eclipse.jetty.client.HttpEventListenerWrapper.onExpire(HttpEventListenerWrapper.java:95)
+	at org.eclipse.jetty.client.HttpEventListenerWrapper.onExpire(HttpEventListenerWrapper.java:95)
+	at org.eclipse.jetty.client.HttpExchange.setStatus(HttpExchange.java:186)
+	at org.eclipse.jetty.client.HttpConnection$TimeoutTask.expired(HttpConnection.java:574)
+	at org.eclipse.jetty.util.thread.Timeout.tick(Timeout.java:153)
+	at org.eclipse.jetty.util.thread.Timeout.tick(Timeout.java:165)
+	at org.eclipse.jetty.client.HttpClient$1.run(HttpClient.java:457)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:435)
+	at java.lang.Thread.run(Thread.java:619)
