@@ -1,4 +1,4 @@
-package com.research;
+package com.research.ehcache;
 
 import net.sf.ehcache.Cache;
 import net.sf.ehcache.CacheManager;

@@ -1,4 +1,4 @@
-package com.research;
+package com.research.ehcache;
 
 public interface CacheWrapper<K, V>
 {
